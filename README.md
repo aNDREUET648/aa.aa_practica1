@@ -1,2 +1,4 @@
-# aa.aa_practica1
-Simulate a waiting room for a game.
+# Arquitecturas Avanzadas. Práctica 1. 
+# Simular una sala de espera para jugar empleando ¿socketserver?
+
+## - 👋 Hi, I’m @aNDREUET648
