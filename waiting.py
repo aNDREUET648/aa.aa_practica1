@@ -6,7 +6,7 @@ TOPE =  3
 
 
 # hilos_activos es donde guardo los nombres de los hilos
-#  cgit staonectados y consecuentemente la cantidad de ellos
+#  conectados y consecuentemente la cantidad de ellos
 hilos_activos =list()  
 
 
@@ -36,7 +36,7 @@ class WaitingHandler(socketserver.StreamRequestHandler):
                 print("\nMensaje del handler: Cliente {} conectado, ya estamos todos..._\n".format(cliente_actual))
                 print(f'Lista de Clientes activos: {hilos_activos}\n')
                 break
-        print("Mensaje del handler: Vamos acabando!!!")
+        print("Mensaje del handler: Empieza el juego!!!")
         # Limpiamos el servidor y detenemos el bucle serve_forever()
         server.server_close()
         server.shutdown()
