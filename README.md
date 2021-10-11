@@ -3,9 +3,9 @@
 
 ### - 👋 Hi, I’m @aNDREUET648
 
-### El objetivo del proyecto es que mediante conexiones externas a un servidor que yo definiré
-### 
-### Players connect to the server and wait until there are enough players (i.e. 3, 4, or 5).
+##### El objetivo del proyecto es que mediante conexiones externas a un servidor que yo definiré
+ 
+##### Players connect to the server and wait until there are enough players (i.e. 3, 4, or 5).
 ### When a new user connects, the server sends a message to the waiting users of the
 ### number of players remaining. Once the number of players has been reached, the
 ### server starts and communicates a countdown to all connected users. Finally, the server
