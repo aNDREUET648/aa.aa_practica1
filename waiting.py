@@ -37,9 +37,11 @@ class WaitingHandler(socketserver.StreamRequestHandler):
                 print(f'Lista de Clientes activos: {hilos_activos}\n')
                 break
         print("Mensaje del handler: Empieza el juego!!!")
+        
         # Limpiamos el servidor y detenemos el bucle serve_forever()
-        server.server_close()
+        
         server.shutdown()
+        server.server_close()
 
 if __name__ == "__main__":
     lista_hilos = threading.enumerate() # hilos actuales. Si se arranca de visual studio aparecen 6 hilos
