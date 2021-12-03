@@ -20,7 +20,7 @@ _Simular una sala de espera para jugar empleando ¿socketserver?_
 
  He definido:
   - Constante **TOPE** donde inicializaré el tamaño de mi habitación _(Waiting Room)_
-  - Lista **hilos_activos** que guardará el nombre del los hilo que se conecta.
+  - Lista **hilos_activos** que guardará el nombre del los hilos que se conectan.
 
  Cualquier mensaje que envíe un jugador (escribir texto en su consola) al servidor será respondido con
  un mensaje del servidor tipo: 
